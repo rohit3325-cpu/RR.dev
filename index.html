@@ -1074,12 +1074,23 @@ nav{
         </div>
 
         <div style="display:flex;gap:10px;flex-wrap:wrap">
-          <button class="btn btn-glow" onclick="alert('Resume coming soon!')">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            Download Resume
-          </button>
-          <button class="btn btn-outline" onclick="goTo('page-skills')">View Skills →</button>
-        </div>
+  
+  <!-- Resume Button -->
+  <a href="resume.pdf" target="_blank" class="btn btn-glow">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+      <polyline points="7 10 12 15 17 10"/>
+      <line x1="12" y1="15" x2="12" y2="3"/>
+    </svg>
+    View Resume
+  </a>
+
+  <!-- Skills Button -->
+  <button class="btn btn-outline" onclick="goTo('page-skills')">
+    View Skills →
+  </button>
+
+</div>
       </div>
     </div>
   </div>
